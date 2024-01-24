@@ -82,8 +82,8 @@ deployments:
     deploymentType: Service
     version: b7bdf2c3534cddef9920fda911b23df89a249e39
     resources:
-      cpu: 1000
-      memory: 5000
+      cpu: 2500
+      memory: 4000
       replicas: 1
     desiredStatus: Running
     variables:
@@ -97,8 +97,8 @@ deployments:
     deploymentType: Service
     version: f5c65e90a3069ada3a2a2395cfec243e6d8d83e8
     resources:
-      cpu: 1000
-      memory: 5000
+      cpu: 2500
+      memory: 4000
       replicas: 1
     desiredStatus: Running
     variables:
